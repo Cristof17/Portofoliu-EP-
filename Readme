@@ -1,0 +1,13 @@
+Homework needs to be tested the following way:
+	-start the process
+	-change VM size at:
+		-128MB
+		-256MB
+		-512MB
+		-1024MB
+	Use gnuplot to show the change in performance
+
+	Write the script to plot all the parameters of:
+		-vmstat(swpd, free, si, so, bi, bo, in, cs, us, sy, id, wa)
+		-mpstat(all)
+		-iostat(rkB/s, wkB/s, r/s, w/s)
